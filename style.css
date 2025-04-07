@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.parent_container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;  
+}
+.container_one{
+    width: 100%;
+ 
+}
+/*NAVIGATION BAR */
+.container_one nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    box-shadow: 1px 0px 4px black;
+    height: 60px;
+    
+}
+.img_container {
+width: 20%;
+}
+.img_container img {
+    width: 50px;
+}
+ul {
+   /* flex: 0.7;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navlinks li {
+margin: 0px 35px;
+list-style: none;
+}
+.navlinks li .active{
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.navlinks li a {
+    text-decoration: none;
+    color: black;
+}
+.navlinks li a:hover{
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.btn_container button {
+    margin: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 14px 40px;
+    border-radius: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+
+}
+.btn_container button:hover{
+    flex: 0.7;
+    display: flex;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+
+}
+.container_two{
+    width: 100%;
+    height: 85vh;
+    background-image: url(./images/Frame\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+.all_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 50px;
+    background-color: #f4f4f4;
+}
+.all_img .box img{
+    width: 100%;
+    height: 400px;
+}
+
+.all_img .box h5{
+    text-align: center;
+    font-size: 25px;
+    font-family:   "Roboto", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 55%;
+    padding: 10px 70px;
+    color: white;
+    max-width: 350px;
+    line-height: 2.5rem;
+
+}
+.all_img .box .line{
+    height: 8px;
+    width: 100%;
+    background-color: black;
+    border-radius: 40px;
+}
+.tanker p{
+margin: 20px 60px;
+
+}
+.Search {
+    margin: 20px 60px;
+    
+}
+.Search input{
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: black solid 1px;
+    padding: 20px;
+
+}
+.search_icon{
+    position: absolute;
+    top: 89%;
+    left: 1255px;
+}
+
+.img_main {
+    margin: 20px 60px;
+}
+.img_main h2{
+  font-weight: 900; 
+    font-family: "Inter", sans-serif;
+
+}
+.container_box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.container_box .chan{
+    border: black solid 2px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.container_box .chan img{
+width: 300px;
+height: 250px;
+}
+.box_item .btn img{
+    width: 20px;
+    height: 15px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
